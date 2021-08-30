@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #e6ecf1;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+
+.header-optionLineTwo {
+    font-size: 10px;
+}
+
+.header-optionLineOne {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+
+.tweet {
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    background-color: white;
+}
+
+.box {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.content small {
+    color: #1da1f2;
+}
+
+.level-item {
+    padding-right: 10px;
+    color: #c3c3c3;
+}
+
+.media-left {
+    margin-right: 1rem;
+}
+
+.media{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.image {
+    display: block;
+    position: relative;
+}
+
+.image > img {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.image.is-64x64 {
+    height: 64px;
+    width: 64px;
+}
+
+.tweet-info {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.control {
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+}
+
+.btn{
+    border: none;
+    color: white;
+    background-color: #1da1f2;
+    padding: 10px 9px;
+    text-align: center;
+    margin: 16px 16px !important;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 11px;
+}

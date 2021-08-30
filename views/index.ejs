@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Here use ejs to set the title tag  -->
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/stylesheets/styles.css">
+    </head>
+    <body>
+
+        <div class="root">
+            <div class="App">
+                <div class="header">
+        
+                    <img
+                        class="header-logo"
+                        src="/images/Twitter_Logo_Blue.png"
+                    >
+        
+                    <div class="header-nav">
+                
+                        <div class="header-option">
+                            <span class="header-optionLineOne">GitHub</span>
+                            <span class="header-optionLineTwo">account</span>
+                        </div>
+                    
+                        <div class="header-option">
+                            <span class="header-optionLineOne">LinkedIn</span>
+                            <span class="header-optionLineTwo">account</span>
+                        </div>
+                 
+                    </div>
+        
+                </div>
+
+                <div class="home">
+                    <div class="home-container">
+                        <div class="home-row" id="tweets">
+                            
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/javascripts/socket-cli.js"></script>
+
+    </body>
+</html>

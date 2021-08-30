@@ -1,0 +1,5 @@
+node_modules
+accesData.txt
+.env
+socket-io.txt
+tree.json
