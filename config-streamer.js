@@ -11,15 +11,8 @@ const twitter = new Twitter({
     token_secret: process.env.ACCESS_TOKEN_SECRET
 })
 
-// const twitter = new Twitter({
-//     consumer_key: "FKoqQuXwhkSHLcyxQNTlvNqVr", 
-//     consumer_secret: "KqQqYkFmLGhi2I9xm2IavPZ0UbFcWvCyjOsuz3bGjjZNkODdfx", 
-//     token: "4856955591-IpR5KRtj0RmXoc0hxLeaYfgWfpHpssGwEWm0ITE",
-//     token_secret: "S8TbXHevhZ4TCYo32HgABsx2qsRVOYHn4GIPnpaqzcSpV"
-// })
-
 // twitter.track('socket.io')
-twitter.track('javascript')
+twitter.track(process.env.TARGET_KEY)
 
 
 twitter.on('error', err => {
